@@ -1,5 +1,5 @@
 # TboxBatchScript
-基于Bat批处理编写的测试脚本，对Tbox进行指令输入。
+基于Bat批处理编写的测试脚本，对Tbox进行指令输入。  
 https://github.com/JeremyChim/TboxBatchScript
 
 # 更新日志：
