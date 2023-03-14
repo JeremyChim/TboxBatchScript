@@ -1,5 +1,6 @@
 # TboxBatchScript
 基于Bat批处理编写的测试脚本，对Tbox进行指令输入。
+https://github.com/JeremyChim/TboxBatchScript
 
 # 更新日志：
  
@@ -159,3 +160,4 @@
 ## 版本：v1.0
 时间：2021.6.25
  - 添加一些基本的功能（进入ADB、GPS功能、网络功能、OTA功能）
+
