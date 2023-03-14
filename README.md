@@ -28,15 +28,13 @@
 ## 版本：v3.2
 时间：2022.5.11
  - 修正了  32、导入私钥  client.key（client.key放在脚本根目录）
-			34、导入Tbox证书  TBOX.crt（TBOX.crt放在脚本根目录）
-			指令写反了
-		（写错了，海原同学发现的）
+ - 34、导入Tbox证书  TBOX.crt（TBOX.crt放在脚本根目录） 指令写反了 （写错了，海原同学发现的）
 
 ## 版本：v3.1
 时间：2022.5.7
  - 新增 32、导入私钥  client.key（client.key放在脚本根目录）
-        33、导入公钥  client.pub（client.pub放在脚本根目录）
-        34、导入Tbox证书  TBOX.crt（TBOX.crt放在脚本根目录）
+ - 新增 33、导入公钥  client.pub（client.pub放在脚本根目录）
+ - 新增 34、导入Tbox证书  TBOX.crt（TBOX.crt放在脚本根目录）
 		
        
 ## 版本：v3.0
@@ -88,7 +86,7 @@
 
 ## 版本：v2.1
 时间:2021.11.30
-（建议使用cmder终端打开脚本，可以解决某些电脑adb shell状态下退格乱码的问题，设置>默认终端>勾选 强制使用conemu作为控制台应用程序的默认终端）
+ - （建议使用cmder终端打开脚本，可以解决某些电脑adb shell状态下退格乱码的问题，设置>默认终端>勾选 强制使用conemu作为控制台应用程序的默认终端）
  - 新增监测hal进程的脚本
 
 ## 版本：v2.0
