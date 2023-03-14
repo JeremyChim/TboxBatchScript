@@ -1,0 +1,2 @@
+cat /oemdata/logs/hal_info.log | grep "network_connect OK"
+exit

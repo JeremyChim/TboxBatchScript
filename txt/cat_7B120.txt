@@ -1,0 +1,2 @@
+cat /oemdata/configs/7B120-1.cfg
+exit

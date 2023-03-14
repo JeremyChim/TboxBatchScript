@@ -1,0 +1,5 @@
+export DBUS_SESSION_BUS_ADDRESS=`cat /tmp/.default-msgbus-session-address` 
+dbus-send --session --type=method_call --print-reply  --dest=com.yuantel.tbox.file    /com/yuantel/tbox/file  com.yuantel.tbox.file.cfg_data_set string:server string:icall_num string:17818326300 
+dbus-send --session --type=method_call --print-reply  --dest=com.yuantel.tbox.file    /com/yuantel/tbox/file  com.yuantel.tbox.file.cfg_data_set string:server string:ecall_auto_num string:17818326300 
+dbus-send --session --type=method_calldbus-send --session --type=method_call --print-reply  --dest=com.yuantel.tbox.file    /com/yuantel/tbox/file  com.yuantel.tbox.file.cfg_data_set string:server string:ecall_manual_num string:17818326300 
+exit 

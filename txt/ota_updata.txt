@@ -1,0 +1,3 @@
+export DBUS_SESSION_BUS_ADDRESS=`cat /tmp/.default-msgbus-session-address` 
+/oemapp/app/bin/set_tuid -u /sdcard/ota/2-TBXA00113178S001050A01C52X.tar 
+exit 
