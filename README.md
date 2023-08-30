@@ -5,6 +5,12 @@ https://github.com/JeremyChim/TboxBatchScript
 
 # 更新日志：
 
+## 版本：v3.9
+
+时间：2023.8.30
+
+- 修改菜单提示：导出指定日志 > 导出指定文件夹
+
 ## 版本：v3.8
 
 时间：2023.8.30

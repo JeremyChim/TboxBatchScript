@@ -235,7 +235,7 @@ adb shell reboot
 @echo 8、查询手动输入的日志文件名（tail -f）
 @echo 9、查询手动输入的日志文件名（cat）
 @echo 10、导出所有log（至adb根目录）（以当前时间命名）
-@echo 11、导出指定log（至adb根目录）（自定义命名）
+@echo 11、导到指定文件夹（至adb根目录）（自定义命名）
 @echo 12、导出艾拉比OTA的log（至adb根目录）
 @echo 13、清除所有log文件（/oemdata/logs/）
 @echo 0、返回上一层
