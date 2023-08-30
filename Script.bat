@@ -547,6 +547,27 @@ adb shell rm -r /sdcard/ota/%filename%
 @echo.
 @set /p filename=请输入升级包的文件名（包含后缀）：
 @echo.
+
+::使用字符串切片操作判断文件名前缀是否是 "TBX"
+@if "%filename:~0,3%" neq "TBX" (
+	@echo 文件名前缀错误，请检查升级包文件名......
+	@pause > nul
+	@goto ota
+	) else ( 
+		@echo 文件名前缀正确......
+		@echo.
+		)
+
+::使用字符串切片操作判断文件名后缀是否是 ".tar"
+@if "%filename:~-4%" neq ".tar" (
+	@echo 文件名后缀错误，请检查升级包文件名......
+	@pause > nul
+	@goto ota
+	) else ( 
+		@echo 文件名后缀正确...... 
+		@echo.
+		)
+	
 @echo 删除之前的升级脚本......
 @del txt\ota_updata.txt
 @echo.
